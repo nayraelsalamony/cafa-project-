@@ -1,0 +1,43 @@
+body { 
+    padding-top: 70px; 
+    background-image: url("../images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(100, 69, 28);
+}
+.overlay-bg{
+    background-color: #00000087;
+    width: 100%;
+    z-index: 90;
+    position: absolute;
+    height: 100%;
+    left:0;
+    top: 0;
+}
+.parent{
+    z-index: 1000;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 3%), 0 12.5px 10px rgb(0 0 0 / 3%), 0 22.3px 17.9px rgb(0 0 0 / 3%), 0 41.8px 33.4px rgb(0 0 0 / 3%), 0 100px 80px rgb(0 0 0 / 3%);
+}
+
+.btn-log{
+    padding: 5px 20px !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    border: none !important;
+    outline: none !important;
+    background-color: #4489a3;
+    color: #fff !important;
+}
+
+.btn-log:hover{
+    color: #4489a3 !important;
+    border: 2px solid #4489a3 !important;
+    background-color: #fff !important;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+}

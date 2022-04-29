@@ -1,0 +1,62 @@
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.nav-bg {
+  background-color: #4489a3;
+  font-family: 'Niconne', cursive;
+  font-size: 20px;
+}
+
+#logo {
+  font-size: 40px;
+}
+
+.navbar-brand {
+  padding: 14px 20px;
+  font-size: 16px;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.nav-item {
+  padding: 6px 14px;
+  text-align: center;
+}
+
+.nav-link {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+.nav-link:hover {
+  color: #bbedff;
+}
+
+.v-line {
+  background-color: gray;
+  width: 1px;
+  height: 20px;
+}
+
+.navbar-collapse.collapse.in {
+  display: block !important;
+}
+
+@media (max-width: 576px) {
+  .nav-item {
+    width: 100%;
+    text-align: left;
+  }
+
+  .v-line {
+    display: none;
+  }
+}
+.right {
+  float: right;
+}

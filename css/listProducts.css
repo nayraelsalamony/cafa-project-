@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: roboto, sans-serif;
+  margin: 0px;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.table-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+  height: 100%;
+}
+
+.table-title div {
+  font-size: 1.7rem;
+  font-family: roboto, sans-serif;
+  font-weight: bold;
+  color: #245365;
+}
+.table-title button {
+  height: 40px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  color: #245365;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: 2px solid #4489a3;
+  padding: 0 15px;
+}
+
+.table-title button a {
+  color: #245365;
+}
+
+.table-title button:hover {
+  background-color: #4489a3;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.table-title button a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+#main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+table {
+  width: 65vw;
+  border: 1px solid #1772ff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.055),
+    0 3px 15px 0 rgba(0, 0, 0, 0.103);
+  border-collapse: collapse;
+  text-align: center;
+}
+
+tr {
+  background-color: #f2f2f2;
+}
+
+.table-header {
+  background-color: #4489a3;
+  color: white;
+  font-size: 18px;
+}
+
+.table-header th{
+  border-right: 2px solid #fff;
+}
+
+th {
+  height: 30px;
+}
+
+tr,
+th,
+td {
+  border: 1px solid #4489a3;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.update-btn {
+  background-color: mediumseagreen;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.del-btn {
+  background-color: maroon;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+}
+p {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.card{
+  border-radius: 15px !important;
+  width: 15rem; 
+  margin-right:30px; 
+  margin-bottom:20px;
+  box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 5%), 0 22.3px 17.9px rgb(0 0 0 / 5%), 0 41.8px 33.4px rgb(0 0 0 / 5%), 0 100px 80px rgb(0 0 0 / 5%);
+}
+
+.list-group-item{
+  background-color: #cbe3ec !important;
+  margin-bottom: 15px !important;
+  font-weight: bold;
+}
+
+.orderr-items{
+  display:flex ; 
+  flex-wrap:wrap ; 
+  padding:40px
+}
